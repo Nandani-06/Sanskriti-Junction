@@ -81,7 +81,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      aria-label="Sanskriti Junction programs"
+      aria-label="Junction programs"
       className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden bg-gradient-hero px-4 pb-16 pt-28"
     >
       {/* Ambient mandala glow behind everything */}

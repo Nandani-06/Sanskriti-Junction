@@ -26,10 +26,10 @@ const Contact = () => {
                   <div>
                     <h3 className="text-lg font-semibold text-foreground mb-2">Phone</h3>
                     <a 
-                      href="tel:+61430201625" 
+                      href="tel:+614......." 
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      +61 430 201 625
+                      +61 4xxxxxxxx
                     </a>
                   </div>
                 </div>
@@ -45,10 +45,10 @@ const Contact = () => {
                   <div>
                     <h3 className="text-lg font-semibold text-foreground mb-2">Email</h3>
                     <a 
-                      href="mailto:sanskritijunction@gmail.com" 
+                      href="mailto:.....@gmail.com" 
                       className="text-muted-foreground hover:text-primary transition-colors break-all"
                     >
-                      sanskritijunction@gmail.com
+                      abc@gmail.com
                     </a>
                   </div>
                 </div>
@@ -62,9 +62,9 @@ const Contact = () => {
                 <MapPin className="h-8 w-8" />
               </div>
               <h3 className="text-xl font-semibold text-foreground mb-2">Location</h3>
-              <p className="text-muted-foreground">Melbourne, Australia</p>
+              <p className="text-muted-foreground">......, Australia</p>
               <p className="text-sm text-muted-foreground mt-2">
-                Serving communities across Melbourne and beyond
+                Serving communities across ...... and beyond
               </p>
             </CardContent>
           </Card>
@@ -101,7 +101,7 @@ const Contact = () => {
                   className="w-12 h-12 rounded-full hover:bg-primary hover:text-white hover:border-primary transition-all"
                   asChild
                 >
-                  <a href="https://www.youtube.com/@SanskritiJunction" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                  <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
                     <Youtube className="h-5 w-5" />
                   </a>
                 </Button>
@@ -114,7 +114,7 @@ const Contact = () => {
                 className="bg-primary hover:bg-primary/90 text-white"
                 asChild
               >
-                <a href="https://form.jotform.com/260269177685470">
+                <a href="https://form.jotform.com/">
                   Join Us Today
                 </a>
               </Button>

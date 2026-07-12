@@ -80,7 +80,8 @@ const Programs = () => {
             Our Programs
           </h2>
           <p className="text-lg text-muted-foreground">
-            Discover engaging cultural, wellness, and educational experiences designed to inspire learning and connection. Our programs are affordable and flexible, with most sessions ranging from $5–$20 per participant and group bookings typically between $200–$375. Whether you're planning a one-off workshop, a school incursion, or an ongoing program, we can tailor an experience that fits your goals, schedule, and budget.
+            Discover engaging cultural, wellness, and educational experiences designed to inspire learning and connection. 
+            Our programs are affordable and flexible, with most sessions ranging from $5–$20 per participant and group bookings typically between $200–$375. Whether you're planning a one-off workshop, a school incursion, or an ongoing program, we can tailor an experience that fits your goals, schedule, and budget.
           </p>
         </div>
         

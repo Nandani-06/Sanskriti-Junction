@@ -3,7 +3,7 @@ import { Menu, X, Phone, Mail, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import logo from "../assets/logof.png";
 
-const REGISTER_URL = "https://form.jotform.com/260269177685470";
+const REGISTER_URL = "https://form.jotform.com/";
 
 interface NavItem {
   label: string;
@@ -83,11 +83,11 @@ const Header = () => {
             type="button"
             onClick={() => scrollToSection("home")}
             className="flex items-center gap-2.5 rounded-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
-            aria-label="Sanskriti Junction — back to top"
+            aria-label="Junction — back to top"
           >
             <img
               src={logo}
-              alt="Sanskriti Junction logo"
+              alt="Junction logo"
               className="h-11 w-auto object-contain"
             />
             <span
@@ -95,7 +95,7 @@ const Header = () => {
                 onLight ? "text-primary" : "text-white"
               }`}
             >
-              Sanskriti Junction Social Enterprise
+              Junction
             </span>
           </button>
 
@@ -295,14 +295,14 @@ const Header = () => {
 
             <div className="flex flex-wrap items-center gap-3 border-t border-border pt-4">
               <a
-                href="tel:+61430201625"
+                href="tel:+614......"
                 className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary"
               >
                 <Phone className="h-4 w-4" />
-                0430 201 625
+                04xxxxxxxx
               </a>
               <a
-                href="mailto:sanskritijunction@gmail.com"
+                href="mailto:.....@gmail.com"
                 className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary"
               >
                 <Mail className="h-4 w-4" />

@@ -10,17 +10,17 @@ const Footer = () => {
               alt="Sanskriti Junction Logo" 
               className="h-12 w-auto object-contain" 
             /></span>
-            <span className="text-xl font-bold font-playfair">Sanskriti Junction Social Enterprise</span>
+            <span className="text-xl font-bold font-playfair"> Junction </span>
           </div>
           <p className="text-background/80 max-w-2xl mx-auto">
             Bringing Culture, Wellness & Community Together
           </p>
           <div className="pt-4 border-t border-background/20">
             <p className="text-sm text-background/60">
-              © {new Date().getFullYear()} Sanskriti Junction. All rights reserved.
+              © {new Date().getFullYear()}  Junction. ........ reserved.
             </p>
             <p className="text-sm text-background/60 mt-2">
-              Melbourne, Australia | sanskritijunction@gmail.com | 0430 201 625
+              ......, Australia | .....@gmail.com | 04xxxxxxxx
             </p>
           </div>
         </div>

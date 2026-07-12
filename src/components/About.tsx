@@ -30,14 +30,14 @@ const About = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center mb-16 animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6 font-playfair">
-            About Sanskriti Junction
+            About Junction
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            At Sanskriti Junction, we believe wellness is more than fitness, it is about creating a balanced, 
-            connected and meaningful life. By bringing together offline culture, mindful practices and strong 
-            community connections, we inspire children, families and communities to grow with confidence, 
-            resilience and joy. Every experience we create celebrates wellbeing, cultural heritage and the 
-            power of belonging.
+            At Junction, we believe wellness is more than ......, it is about creating a balanced, 
+            connected and ...... life. By bringing together ..... culture, mindful practices and strong 
+            community ........., we ..... children, ...... and communities to grow with confidence, 
+            resilience and joy. Every experience we create celebrates ......., cultural heritage and the 
+            power of .......
           </p>
         </div>
 
@@ -65,8 +65,8 @@ const About = () => {
           <div className="bg-card rounded-lg p-8 border border-border shadow-sm">
             <h3 className="text-2xl font-bold text-foreground mb-4 font-playfair">Our Mission</h3>
             <p className="text-muted-foreground leading-relaxed">
-              To nurture resilience, harmony, and happiness through the fusion of culture, wellness, 
-              and values. We celebrate simplicity as a timeless virtue, a reflection of authenticity 
+              To nurture resilience, harmony, and happiness through the ..... of culture, wellness, 
+              and values. We celebrate ........ as a timeless virtue, a reflection of authenticity 
               and grace; and believe that true well-being begins from within.
             </p>
           </div>
@@ -74,8 +74,8 @@ const About = () => {
           <div className="bg-card rounded-lg p-8 border border-border shadow-sm">
             <h3 className="text-2xl font-bold text-foreground mb-4 font-playfair">Our Vision</h3>
             <p className="text-muted-foreground leading-relaxed">
-              To create a community where every generation connects with their roots through art, 
-              culture, and mindful living, empowering individuals to live with joy, awareness, 
+              To create a ...... where every generation connects with their ..... through art, 
+              culture, and mindful living, ...... individuals to live with joy, ......., 
               and purpose.
             </p>
           </div>

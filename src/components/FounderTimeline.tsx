@@ -2,22 +2,22 @@ import founderPortrait from "@/assets/profile.jpg";
 
 const FounderTimeline = () => {
   const qualifications = [
-    "Advanced Diploma in Community Sector Management",
-    "Certified Yoga Instructor",
-    "Master of Professional Accounting",
-    "Bachelor of Science (Chemistry)",
-    "Advanced Diploma in Audio-Visual Production",
-    "Certificate IV in Training and Assessment",
-    "Certificate III in Education Support",
-    "Certificate III in Health Administration",
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
   ];
 
   const milestones = [
-    { year: "2001–2007", label: "India & Early Career", description: "Media, communications and community outreach roles, including community radio work at SEWA giving rural women a voice." },
-    { year: "2007–2018", label: "Building a Life in Australia", description: "Health administration, finance and volunteer coordination across Sydney's health and community sectors." },
-    { year: "2018", label: "Melbourne & the Turning Point", description: "Began teaching traditional dance as a volunteer after noticing multicultural children losing touch with cultural connection." },
-    { year: "2019–2024", label: "Education Sector", description: "Administration and finance leadership within Victorian schools, deepening insight into youth wellbeing." },
-    { year: "2025", label: "Sanskriti Junction Founded", description: "Launched with one mission: bringing offline culture, wellness and community together." },
+    { year: "200x–200x", label: ".... & Early Career", description: "...., .......... and community outreach roles, including .... radio work at ..... giving rural .... a voice." },
+    { year: "200x–20xx", label: "Building a Life in Australia", description: "Health ......., finance and ...... coordination across ......'s health and ....... sectors." },
+    { year: "20xx", label: "...... & the Turning Point", description: "Began teaching ........... with cultural connection." },
+    { year: "20xx–20xx", label: "E.....Sector", description: "Administration and finance leadership within Victorian schools, deepening insight into youth wellbeing." },
+    { year: "20xx", label: " Juncti.........together." },
   ];
 
   return (
@@ -34,14 +34,14 @@ const FounderTimeline = () => {
               Meet the Founder
             </p>
             <h2 className="text-4xl md:text-5xl font-bold mb-6 font-playfair text-black">
-              Every Journey Begins with a Question...
+              Every ...... Begins with a ...
             </h2>
             <div className="space-y-1 text-lg text-black/80 italic max-w-2xl mx-auto">
-              <p>What if culture could heal?</p>
+              <p>What if ...... could heal?</p>
               <p>What if dance could build confidence?</p>
               <p>
-                What if the simple joy of gathering together could make our
-                communities healthier and happier?
+                What if the simple joy of ....... together could make our
+                communities ........ and happier?
               </p>
             </div>
           </div>
@@ -55,27 +55,27 @@ const FounderTimeline = () => {
                 className="w-full max-w-[280px] h-auto object-cover rounded-xl shadow-md"
               />
               <p className="text-center mt-3 font-playfair text-xl font-bold text-orange-600">
-                Shweta Bhatti
+                ................
               </p>
               <p className="text-center text-sm text-black/70">
-                Founder, Sanskriti Junction
+                Founder, Junction
               </p>
             </div>
 
             <div className="space-y-4 bg-white/60 backdrop-blur-sm rounded-lg p-6 text-black leading-relaxed">
               <p>
-                These questions have guided my journey for more than twenty
+                These questions have guided my ....... for more than twenty
                 years.
               </p>
               <p>
-                I'm Shweta Bhatti, Founder of Sanskriti Junction. My path has
-                taken me from empowering rural women in India through
+                I'm ........, Founder of Junction. My path has
+                taken me from ......... rural women in ..... through
                 community radio to working in Australia's healthcare,
-                education, and community sectors. Though each chapter was
+                education, and //////// sectors. Though each ...... was
                 different, one truth remained:
               </p>
               <p className="font-semibold text-orange-700">
-                People flourish when they feel connected—to themselves, to
+                People ........ when they feel ........ themselves, to
                 their culture, and to one another.
               </p>
             </div>
@@ -89,15 +89,15 @@ const FounderTimeline = () => {
                 Discovering the Power of Connection
               </h3>
               <p className="mb-4">
-                At SEWA in India, I helped create community radio programs
+                At ..... in ....., I helped create community radio programs
                 that gave rural women a voice. Watching women who had never
                 spoken publicly become confident storytellers taught me that
                 real change begins when people feel heard.
               </p>
               <p className="mb-4">
-                Years later, working in Australia's health system, I saw
+                Years later, working in .......'s health system, I saw
                 another side of the same story. Despite advances in medicine,
-                stress, loneliness, anxiety, and lifestyle-related illnesses
+                stress, loneliness, ......., and lifestyle-related .......
                 continued to affect families.
               </p>
               <p className="italic text-orange-700 font-medium">
@@ -111,62 +111,62 @@ const FounderTimeline = () => {
                 The Moment Everything Changed
               </h3>
               <p className="mb-4">
-                When I moved to Melbourne in 2018, I noticed many children
+                When I moved to ....... in ......, I noticed many children
                 from multicultural families lacked a connection to their
                 traditional dance and festivals.
               </p>
               <p className="mb-4">I couldn't understand why.</p>
               <p className="mb-4">
-                Growing up in India, festivals were the happiest moments of
-                my childhood. They brought families together, built
+                Growing up in ///////, festivals were the happiest moments of
+                my ....... They brought ...... together, built
                 friendships, and gave us a sense of belonging.
               </p>
               <p className="mb-4">
-                So, I began teaching traditional dance as a volunteer, hoping
+                So, I began teaching ....... dance as a volunteer, hoping
                 to share the joy I once knew.
               </p>
               <p className="mb-4">
-                Over the years, I witnessed something extraordinary. Shy
-                children grew confident. Teenagers became mentors. One
+                Over the years, I ...... something extraordinary. Shy
+                children grew confident. ...... became mentors. One
                 student with autism, who once struggled socially, blossomed
-                in dance. She performed on stage with a smile that spoke
-                volumes—dance became her bridge to confidence and connection.
+                in dance. She ...... on stage with a smile that spoke
+                ........ became her bridge to confidence and connection.
               </p>
               <p className="mb-4 font-semibold text-orange-700">
-                That was the moment I realized: Culture is not just
-                heritage—it is a pathway to healthier, more connected
+                That was the moment I realized: ...... is not just
+                ....... is a pathway to healthier, more connected
                 communities.
               </p>
               <p className="mb-4">
                 Working in schools reinforced what I had already seen. Many
-                young people struggled with anxiety, isolation, and too much
-                screen time. But the children who danced, created, and
-                connected grew happier, more resilient, and more confident.
+                young people struggled with ......, isolation, and too much
+                screen ...... But the children who danced, created, and
+                connected grew happier, more ......, and more confident.
               </p>
               <p className="mb-4">
-                In 2025, I founded Sanskriti Junction with one simple
+                In ...., I founded Junction with one simple
                 mission:
               </p>
               <p className="text-xl font-bold font-playfair text-orange-600 mb-4">
-                Bringing Offline Culture, Wellness &amp; Community Together.
+                Bringing ....... Culture, Wellness &amp; Community Together.
               </p>
               <p className="mb-4">
                 Through dance, yoga, meditation, music, art, and community
-                experiences, we help children and families build confidence,
-                resilience, and lifelong friendships.
+                ........., we help ....... and families build confidence,
+                resilience, and ........ .......
               </p>
               <p className="mb-2">
-                Because I believe the healthiest communities aren't built
-                inside hospitals.
+                Because I believe the ..... communities aren't built
+                ,........ hospitals.
               </p>
               <div className="pl-4 border-l-4 border-orange-400 space-y-1 text-black/80 mb-4">
-                <p>They're built in neighbourhoods.</p>
+                <p>They're built in ..........</p>
                 <p>In schools.</p>
-                <p>In community halls.</p>
+                <p>.............</p>
                 <p>On dance floors.</p>
               </div>
               <p>
-                And wherever people come together with purpose and a sense
+                And wherever ..... come together with purpose and a sense
                 of belonging.
               </p>
             </div>
@@ -176,27 +176,26 @@ const FounderTimeline = () => {
                 My Vision
               </h3>
               <p className="mb-4">
-                I dream of a future where children spend less time behind
+                I .... of a future where ..... spend less time behind
                 screens and more time creating, moving, and connecting.
               </p>
               <div className="space-y-1 mb-4 text-black/90">
-                <p>Where culture is celebrated.</p>
-                <p>Where wellness is a way of life.</p>
-                <p>Where every child feels seen and valued.</p>
-                <p>Where every family is connected.</p>
-                <p>And every community grows stronger.</p>
+                <p>Where ..... is celebrated.</p>
+                
+                <p>Where every ... feels seen and valued.</p>
+                <p>Where every .... is connected.</p>
+                
                 <p>And every generation carries forward the joy of belonging.</p>
               </div>
               <p className="mb-6">
-                Because when people move together, learn together and
-                celebrate together, they don't just preserve culture—they
+                Because when people move together, they don't just preserve culture—they
                 build healthier communities for generations to come.
               </p>
               <p className="text-right font-playfair italic text-orange-600 text-lg">
-                — Shweta Bhatti
+                — Founder
                 <br />
                 <span className="text-sm not-italic text-black/70">
-                  Founder, Sanskriti Junction
+                  Founder, Junction
                 </span>
               </p>
             </div>
