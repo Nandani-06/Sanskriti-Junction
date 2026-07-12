@@ -1,73 +1,40 @@
-# Welcome to your Lovable project
+# Sanskriti Junction | Professional Activity Portfolio
 
-## Project info
+A high-performance, **Single Page Application (SPA)** engineered with **React 18**, **TypeScript**, and **Vite**. This platform serves as a unified digital viewport for Sanskriti Junction, programmatically rendering a diverse portfolio of corporate, educational, and community-driven initiatives through a modern, accessible interface.
 
-**URL**: https://lovable.dev/projects/8ab585be-ed65-4054-ab0a-a24ec00fc86e
+## 🚀 Technical Highlights
 
-## How can I edit this code?
+- **Data-Driven UI Rendering:** Employs a declarative mapping architecture (as seen in `SchoolPrograms.tsx`) to transform structured JSON arrays into high-fidelity UI. This decouples business logic from presentation, allowing for rapid content scaling.
+- **Type-Safe Engineering:** Built with strict **TypeScript** interfaces and **Zod** schema validation to ensure data integrity across the activity catalog and global state.
+- **Modern State Management:** Integrated with **@tanstack/react-query** for optimized data handling and **React Router 6** for seamless client-side navigation.
+- **Accessible Design System:** Built on **Shadcn UI** and **Radix UI** primitives, ensuring WCAG-compliant accessibility, keyboard navigation, and consistent visual language.
+- **Dynamic UX:** Leverages **Tailwind CSS Animate** and **Lucide React** for smooth, performance-optimized transitions and interactive feedback.
 
-There are several ways of editing your application.
+## 🛠️ Tech Stack
 
-**Use Lovable**
+### Core Architecture
+* **Framework:** React 18 (Functional Components, Hooks)
+* **Build Tool:** Vite (Ultra-fast HMR and bundling)
+* **Language:** TypeScript 5.8
+* **Routing:** React Router DOM
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8ab585be-ed65-4054-ab0a-a24ec00fc86e) and start prompting.
+### UI & Styling
+* **Styling:** Tailwind CSS (Utility-first CSS)
+* **Component Library:** Radix UI / Shadcn UI
+* **Forms:** React Hook Form + Zod
+* **Animations:** tailwindcss-animate + Embla Carousel
 
-Changes made via Lovable will be committed automatically to this repo.
+## 📂 Project Structure
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/8ab585be-ed65-4054-ab0a-a24ec00fc86e) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+```text
+src/
+├── components/
+│   ├── ui/           # Accessible Radix primitives (Card, Toast, Tooltip)
+│   ├── SchoolPrograms.tsx # Mapping logic for educational packages
+│   ├── FounderTimeline.tsx# Data-driven career visualization
+│   └── ...           # Additional modular activity components
+├── pages/
+│   ├── Index.tsx     # Unified viewport orchestrating all sections
+│   └── NotFound.tsx  # Error boundary and catch-all route
+├── App.tsx           # Global Providers (QueryClient, Tooltip, Router)
+└── main.tsx          # Application entry point
