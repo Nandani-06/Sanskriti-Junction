@@ -19,39 +19,39 @@ const Programs = () => {
       description: "Unite your mind, body, and soul through ancient wisdom",
       features: ["Improves flexibility & immunity", "Reduces stress & anxiety", "Vipassana meditation", "All ages welcome"],
       color: "text-accent",
-      id: "programs-detailed"
+      id: "program-yoga"
     },
     {
       icon: Music,
-      title: "Music & Dance",
+      title: "Indian Folk Dance & Movement",
       description: "Celebrate creativity through classical and folk traditions",
       features: ["Classical & folk forms", "Musical drama", "Cultural storytelling", "Garba choreography"],
       color: "text-secondary",
-      id: "music"
-    },
-    {
-      icon: ChessRook,
-      title: "Traditional Games",
-      description: "Learn life lessons through traditional Indian games",
-      features: ["Chess (Chaturanga)", "Snakes & Ladders", "Strategy & teamwork", "Moral education"],
-      color: "text-primary",
-      id: "games"
+      id: "program-folk-dance"
     },
     {
       icon: Atom,
-      title: "Art & Design",
+      title: "Traditional Art Workshop",
       description: "Express yourself through Henna, Rangoli, and more",
       features: ["Henna (Mehndi) art", "Rangoli workshops", "Cultural crafts", "Wall art & design"],
       color: "text-accent",
-      id: "art"
+      id: "program-traditional-art"
+    },
+    {
+      icon: ChessRook,
+      title: "Traditional Games & Social Connection",
+      description: "Learn life lessons through traditional Indian games",
+      features: ["Chess (Chaturanga)", "Snakes & Ladders", "Strategy & teamwork", "Moral education"],
+      color: "text-primary",
+      id: "program-traditional-games"
     },
     {
       icon: Users,
-      title: "Community Programs",
+      title: "Drama & Cultural Storytelling ",
       description: "Cultural events, festivals, and language learning",
       features: ["Festival celebrations", "Hindi through Bhajan", "Gujarati through Garba", "Event choreography"],
       color: "text-secondary",
-      id: "community"
+      id: "program-drama"
     },
     {
       icon: User,
@@ -63,9 +63,9 @@ const Programs = () => {
     },
     {
       icon: School,
-      title: "School Programs",
-      description: "Educational workshops for students",
-      features: ["Resilience & wellbeing", "Cultural incursions", "Ethics through games", "Creative learning"],
+      title: "Programs Categories",
+      description: "Wellbeing & cultural experiences for every setting",
+      features: ["Schools & early learning", "Community & council", "Corporate wellbeing", "Special events & festivals"],
       color: "text-accent",
       id: "school"
     },
@@ -80,7 +80,7 @@ const Programs = () => {
             Our Programs
           </h2>
           <p className="text-lg text-muted-foreground">
-            Discover a range of wellness, cultural, and educational programs designed for all ages and communities
+            Discover engaging cultural, wellness, and educational experiences designed to inspire learning and connection. Our programs are affordable and flexible, with most sessions ranging from $5–$20 per participant and group bookings typically between $200–$375. Whether you're planning a one-off workshop, a school incursion, or an ongoing program, we can tailor an experience that fits your goals, schedule, and budget.
           </p>
         </div>
         

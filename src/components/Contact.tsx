@@ -114,8 +114,8 @@ const Contact = () => {
                 className="bg-primary hover:bg-primary/90 text-white"
                 asChild
               >
-                <a href="mailto:sanskritijunction@gmail.com">
-                  Contact Us Today
+                <a href="https://form.jotform.com/260269177685470">
+                  Join Us Today
                 </a>
               </Button>
             </CardContent>

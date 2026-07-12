@@ -10,7 +10,7 @@ const About = () => {
     },
     {
       icon: Users,
-      title: "Community",
+      title: "Offline Connection",
       description: "Connect generations through shared cultural experiences and meaningful relationships",
     },
     {
@@ -33,9 +33,11 @@ const About = () => {
             About Sanskriti Junction
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            At Sanskriti Junction, we believe wellness is more than fitness — it's a joyful journey 
-            that unites mind, body, and soul. We bring together the timeless values of Indian culture, 
-            mindfulness, and community connection to inspire positive change in every life we touch.
+            At Sanskriti Junction, we believe wellness is more than fitness, it is about creating a balanced, 
+            connected and meaningful life. By bringing together offline culture, mindful practices and strong 
+            community connections, we inspire children, families and communities to grow with confidence, 
+            resilience and joy. Every experience we create celebrates wellbeing, cultural heritage and the 
+            power of belonging.
           </p>
         </div>
 
@@ -64,8 +66,8 @@ const About = () => {
             <h3 className="text-2xl font-bold text-foreground mb-4 font-playfair">Our Mission</h3>
             <p className="text-muted-foreground leading-relaxed">
               To nurture resilience, harmony, and happiness through the fusion of culture, wellness, 
-              and values. We celebrate simplicity as a timeless virtue — a reflection of authenticity 
-              and grace — and believe that true well-being begins from within.
+              and values. We celebrate simplicity as a timeless virtue, a reflection of authenticity 
+              and grace; and believe that true well-being begins from within.
             </p>
           </div>
 
@@ -73,7 +75,7 @@ const About = () => {
             <h3 className="text-2xl font-bold text-foreground mb-4 font-playfair">Our Vision</h3>
             <p className="text-muted-foreground leading-relaxed">
               To create a community where every generation connects with their roots through art, 
-              culture, and mindful living — empowering individuals to live with joy, awareness, 
+              culture, and mindful living, empowering individuals to live with joy, awareness, 
               and purpose.
             </p>
           </div>

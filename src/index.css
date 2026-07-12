@@ -2,108 +2,130 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* ============================================================
+   Sanskriti Junction — Design System
+   Brand: Deep Purple + Lavender + Gold (luxury cultural identity)
+   All colors are HSL. Tokens here drive every component.
+   ============================================================ */
 
 @layer base {
   :root {
-    --background: 35 100% 98%;
-    --foreground: 20 20% 15%;
+    /* Surfaces */
+    --background: 270 40% 99%;          /* near-white with a lavender whisper */
+    --foreground: 270 35% 14%;          /* deep plum text */
 
     --card: 0 0% 100%;
-    --card-foreground: 20 20% 15%;
+    --card-foreground: 270 35% 14%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 20 20% 15%;
+    --popover-foreground: 270 35% 14%;
 
-    --primary: 25 95% 53%;
+    /* Brand — Deep Purple is primary */
+    --primary: 270 60% 30%;             /* deep royal purple */
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 280 70% 45%;
-    --secondary-foreground: 0 0% 100%;
+    /* Lavender as secondary */
+    --secondary: 268 55% 75%;           /* soft lavender */
+    --secondary-foreground: 270 45% 18%;
 
-    --muted: 35 50% 95%;
-    --muted-foreground: 25 15% 45%;
+    --muted: 270 30% 96%;               /* soft lavender background */
+    --muted-foreground: 270 12% 42%;
 
-    --accent: 180 75% 45%;
-    --accent-foreground: 0 0% 100%;
+    /* Gold accent */
+    --accent: 42 78% 52%;               /* warm gold */
+    --accent-foreground: 270 45% 15%;
 
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 0 72% 51%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 35 30% 88%;
-    --input: 35 30% 88%;
-    --ring: 25 95% 53%;
+    --border: 270 25% 90%;
+    --input: 270 25% 90%;
+    --ring: 270 60% 40%;
 
-    --radius: 0.75rem;
-    
-    --gradient-hero: linear-gradient(135deg, hsl(25 95% 53%), hsl(340 85% 55%), hsl(280 70% 45%));
-    --gradient-section: linear-gradient(180deg, hsl(35 100% 98%), hsl(180 50% 97%));
-    --gradient-card: linear-gradient(135deg, hsl(0 0% 100%), hsl(35 50% 98%));
-    
-    --shadow-soft: 0 4px 20px -4px hsl(25 95% 53% / 0.15);
-    --shadow-hover: 0 8px 30px -6px hsl(25 95% 53% / 0.25);
-    
-    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --radius: 1rem;
 
-    --sidebar-background: 0 0% 98%;
+    /* Brand palette tokens (raw hues for gradients/SVG) */
+    --purple-deep: 271 62% 22%;         /* #2c1250-ish, near logo ring */
+    --purple: 270 60% 34%;
+    --purple-bright: 271 55% 48%;
+    --lavender: 268 55% 78%;
+    --lavender-soft: 270 45% 92%;
+    --gold: 42 78% 52%;
+    --gold-soft: 44 85% 68%;
+    --beige: 38 44% 94%;
 
-    --sidebar-foreground: 240 5.3% 26.1%;
+    /* Gradients */
+    --gradient-hero: linear-gradient(160deg, hsl(271 62% 18%) 0%, hsl(270 60% 30%) 55%, hsl(271 55% 40%) 100%);
+    --gradient-purple: linear-gradient(135deg, hsl(271 62% 24%) 0%, hsl(270 58% 38%) 100%);
+    --gradient-gold: linear-gradient(135deg, hsl(44 85% 64%) 0%, hsl(40 80% 50%) 100%);
+    --gradient-section: linear-gradient(180deg, hsl(270 40% 99%) 0%, hsl(270 35% 97%) 100%);
+    --gradient-card: hsl(0 0% 100%);
 
-    --sidebar-primary: 240 5.9% 10%;
+    /* Shadows — soft, premium */
+    --shadow-soft: 0 4px 24px -6px hsl(270 60% 30% / 0.16);
+    --shadow-hover: 0 14px 40px -10px hsl(270 60% 30% / 0.30);
+    --shadow-gold: 0 8px 30px -8px hsl(42 78% 52% / 0.45);
 
-    --sidebar-primary-foreground: 0 0% 98%;
+    --transition-smooth: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
 
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    /* Sidebar (unchanged shadcn defaults, retuned to brand) */
+    --sidebar-background: 270 40% 99%;
+    --sidebar-foreground: 270 20% 26%;
+    --sidebar-primary: 270 60% 30%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 270 30% 95%;
+    --sidebar-accent-foreground: 270 45% 18%;
+    --sidebar-border: 270 25% 90%;
+    --sidebar-ring: 270 60% 40%;
   }
 
   .dark {
-    --background: 20 25% 8%;
-    --foreground: 35 50% 95%;
+    --background: 271 45% 7%;
+    --foreground: 270 30% 95%;
 
-    --card: 20 20% 12%;
-    --card-foreground: 35 50% 95%;
+    --card: 271 40% 11%;
+    --card-foreground: 270 30% 95%;
 
-    --popover: 20 20% 12%;
-    --popover-foreground: 35 50% 95%;
+    --popover: 271 40% 11%;
+    --popover-foreground: 270 30% 95%;
 
-    --primary: 25 95% 53%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 268 55% 70%;
+    --primary-foreground: 271 50% 12%;
 
-    --secondary: 280 70% 45%;
+    --secondary: 270 40% 30%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 20 20% 18%;
-    --muted-foreground: 35 30% 60%;
+    --muted: 271 30% 18%;
+    --muted-foreground: 270 20% 65%;
 
-    --accent: 180 75% 45%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 42 78% 56%;
+    --accent-foreground: 271 50% 12%;
 
-    --destructive: 0 62.8% 30.6%;
+    --destructive: 0 62% 45%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 20 20% 18%;
-    --input: 20 20% 18%;
-    --ring: 25 95% 53%;
-    
-    --gradient-hero: linear-gradient(135deg, hsl(25 95% 53%), hsl(340 85% 55%), hsl(280 70% 45%));
-    --gradient-section: linear-gradient(180deg, hsl(20 25% 8%), hsl(180 50% 12%));
-    --gradient-card: linear-gradient(135deg, hsl(20 20% 12%), hsl(25 30% 15%));
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --border: 271 30% 20%;
+    --input: 271 30% 20%;
+    --ring: 268 55% 60%;
+
+    --gradient-hero: linear-gradient(160deg, hsl(271 55% 12%) 0%, hsl(270 50% 22%) 55%, hsl(271 50% 30%) 100%);
+    --gradient-purple: linear-gradient(135deg, hsl(271 55% 14%) 0%, hsl(270 50% 26%) 100%);
+    --gradient-gold: linear-gradient(135deg, hsl(44 85% 60%) 0%, hsl(40 80% 48%) 100%);
+    --gradient-section: linear-gradient(180deg, hsl(271 45% 7%) 0%, hsl(271 40% 9%) 100%);
+    --gradient-card: hsl(271 40% 11%);
+
+    --shadow-soft: 0 4px 24px -6px hsl(0 0% 0% / 0.5);
+    --shadow-hover: 0 14px 40px -10px hsl(0 0% 0% / 0.6);
+    --shadow-gold: 0 8px 30px -8px hsl(42 78% 52% / 0.4);
+
+    --sidebar-background: 271 45% 7%;
+    --sidebar-foreground: 270 30% 90%;
+    --sidebar-primary: 268 55% 70%;
+    --sidebar-primary-foreground: 271 50% 12%;
+    --sidebar-accent: 271 30% 18%;
+    --sidebar-accent-foreground: 270 30% 90%;
+    --sidebar-border: 271 30% 20%;
+    --sidebar-ring: 268 55% 60%;
   }
 }
 
@@ -112,7 +134,79 @@ All colors MUST be HSL.
     @apply border-border;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     @apply bg-background text-foreground;
+    font-feature-settings: "ss01", "cv01";
+  }
+}
+
+/* ============================================================
+   Brand utilities
+   ============================================================ */
+@layer utilities {
+  .text-gradient-gold {
+    background: var(--gradient-gold);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .bg-gradient-hero { background: var(--gradient-hero); }
+  .bg-gradient-purple { background: var(--gradient-purple); }
+  .bg-gradient-gold { background: var(--gradient-gold); }
+  .bg-gradient-section { background: var(--gradient-section); }
+
+  .shadow-soft { box-shadow: var(--shadow-soft); }
+  .shadow-hover { box-shadow: var(--shadow-hover); }
+  .shadow-gold { box-shadow: var(--shadow-gold); }
+
+  .glass {
+    background: hsl(0 0% 100% / 0.08);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid hsl(0 0% 100% / 0.18);
+  }
+}
+
+/* ------------------------------------------------------------------
+   Hero program circles — self-contained fade-up.
+   Defined here (not only in tailwind.config) so the circles render even
+   if the Tailwind animation keyframes aren't present. They are VISIBLE by
+   default; the animation only adds a gentle entrance. If JS/CSS animation
+   is unavailable, opacity stays 1 and nothing disappears.
+   ------------------------------------------------------------------ */
+@keyframes program-circle-in {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.program-circle {
+  opacity: 1;
+  animation: program-circle-in 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* Respect reduced motion globally */
+@media (prefers-reduced-motion: reduce) {
+  .program-circle {
+    animation: none;
+    opacity: 1;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
   }
 }

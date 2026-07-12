@@ -1,4 +1,4 @@
-import logo from "../assets/logo2.png";
+import logo from "../assets/logof.png";
 const Footer = () => {
   return (
     <footer className="bg-foreground text-background py-8">
@@ -10,7 +10,7 @@ const Footer = () => {
               alt="Sanskriti Junction Logo" 
               className="h-12 w-auto object-contain" 
             /></span>
-            <span className="text-xl font-bold font-playfair">Sanskriti Junction</span>
+            <span className="text-xl font-bold font-playfair">Sanskriti Junction Social Enterprise</span>
           </div>
           <p className="text-background/80 max-w-2xl mx-auto">
             Bringing Culture, Wellness & Community Together
